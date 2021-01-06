@@ -110,6 +110,7 @@ button#find-out:hover{
 }
 section#project-images {
     height: 366px;
+    overflow: hidden;
 }
 
 .single-img img {
