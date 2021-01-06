@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+
+.container {
+    width: 1000px;
+    padding-right: 15;
+    padding-left: 15px;
+    margin: 0px auto;
+}
+header#header-area {
+    height: 600px;
+    background-image: url("../images/banner.jpg");
+}
+
+.logo-area {
+    width: 30%;
+    float: left;
+}
+
+.main-menu {
+    width: 70%;
+    float: right;
+}
+
+ul.menu-bar li {list-style-type: none;display: contents;}
+
+ul.menu-bar li a {
+    text-decoration: none;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+ul.menu-bar li a:hover{
+    color: #ff6060;
+}
+
+ul.menu-bar {
+    float: right;
+}
+
+.menu-area {
+    width: 100%;
+    padding: 25px 0px;
+    height: 20px;
+    border-bottom: 1px solid #888;
+}
+.header-content {
+    text-align: center;
+    margin: 0px auto;
+    width: 63%;
+}
+.header-content h1 {
+    margin-top: 20%;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header-content p {
+    color: #fff;
+    margin-top: 30px;
+}
+
+button#find-out {
+    border: none;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    background: #e84545;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 7%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button#find-out:hover{
+    background: crimson;
+}
+
+.single-services {
+    text-align: center;
+    width: 32%;
+    display: inline-grid;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.single-services i {
+    font-size: 45px;
+    color: #e84545;
+    margin-bottom: 20px;
+}
+
+.single-services p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 20px;
+    color: #797e84;
+}
+section#project-images {
+    height: 366px;
+}
+
+.single-img img {
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: -5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.single-img img:hover{
+
+    transform: scale(0.9);
+}
+
+.single-img {
+    width: 25%;
+    float: right;
+}
+
+.single-contents {
+    width: 24%;
+    display: inline-grid;
+    margin-left: 6px;
+}
+
+.single-contents img {
+    width: 100%;
+    transition: all 0.2s ease;
+
+}
+
+.single-contents h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2d3033;
+}
+
+.single-contents span {
+    color: red;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.single-contents p {
+    font-size: 14px;
+    color: #858a8f;
+    margin-top: 20px;
+}
+.team-icons a i {
+    font-size: 15px;
+    color: #858a8f;
+    border: 1px solid #858a8f;
+    margin-top: 15px;
+    height: 30px;
+    width: 35px;
+    text-align: center;
+    line-height: 31px;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+.team-icons a i:hover{
+    background: #ff5c5c;
+    color: #fff;
+    border: 1px solid #ff5c5c;
+}
+.single-contents:hover img{
+    transform: scale(1.05);
+}
+section#info-slsider {
+    height: 338px;
+}
+
+.left-image {
+    width: 50%;
+    float: left;
+}
+
+.left-image img {
+    width: 100%;
+}
+
+.right-content {
+    width: 50%;
+    float: left;
+    background: #53354a;
+    height: 100%;
+}
+
+.right-content h2 {
+    font-family: "Dancing Script", cursive;
+}
+.coontents h2 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.coontents {
+    padding: 90px;
+}
+
+.coontents p {
+    color: #fff;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.ready-content {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.ready-content p {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.ready-content h5 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    color: #000000ad;
+}
+
+button#download {
+    border: none;
+    padding: 16px 60px;
+    background: #e84545;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button#download:hover{
+    background: crimson;
+}
+section#main-footer {
+    height: 130px;
+    background: #3a3e64;
+}
+.single-content h3 {
+    color: #f5f5f7;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.single-content p {
+    color: #afb0bc;
+}
+
+.single-content {
+    width: 18%;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    margin-right: 230px;
+}
+.footer-icon i {
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 31px;
+    transition: all 0.3s ease;
+}
+.footer-icon i:hover{
+    background: #e84545;
+    border: 2px solid #e84545;
+}
+.footer-icon .fa-twitter {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.single-content-box {
+    width: 17%;
+    float: right;
+    text-align: center;
+}
+
+.single-content-box h3 {
+    color: #f5f5f7;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.single-content-box p {
+    color: #afb0bc;
+    font-size: 14px;
+    line-height: 25px;
+}
+footer#copyright-foooter {
+    background: #313454;
+    text-align: center;
+    padding: 30px;
+    color: #60616d;
+    font-size: 14px;
+}
+
+footer#copyright-foooter span {
+    color: #dc5d5d;
+}
