@@ -86,13 +86,13 @@
     .services-icons{
         columns: 2;
     }
-    .single-services {
-        text-align: center;
-        width: 100%;
-        display: inline-grid;
-        margin-top: 60px;
-        margin-left: 8px;
-    }
+   .single-services {
+    text-align: center;
+    width: 85%;
+    display: inline-grid;
+    margin-top: 60px;
+    margin-left: 30px;
+}
 
 .single-services h4 {
     font-size: 26px;
